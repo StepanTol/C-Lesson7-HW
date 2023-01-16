@@ -19,7 +19,6 @@ double[,] GetArray (int m, int n)
         {
             result[i,j] = rand.NextDouble() + rand.Next(1,20);
             result[i,j] = Math.Round(result[i,j],2);
-            //Console.Write($"{0,5:F2}", result[i,j]);
         }
     }
     return result;
